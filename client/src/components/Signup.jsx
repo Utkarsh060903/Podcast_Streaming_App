@@ -18,7 +18,7 @@ import {
   import axios from "axios";
   import CircularProgress from "@mui/material/CircularProgress";
   import validator from "validator";
-  import { googleSignIn, signUp } from "../api/index";
+  import { googleSignIn, signUp } from "../api/index.js";
   import OTP from "./OTP";
   import { useGoogleLogin } from "@react-oauth/google";
 import { closeSignin, openSignin } from "../redux/setSigninSlice";

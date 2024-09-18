@@ -15,7 +15,7 @@ import {
   import { openSnackbar } from "../redux/snackbarSlice";
   import { useDispatch } from "react-redux";
   import validator from "validator";
-  import { signIn, googleSignIn, findUserByEmail, resetPassword } from "../api/index";
+  import { signIn, googleSignIn, findUserByEmail, resetPassword } from "../api/index.js";
   import OTP from "./OTP";
   import { useGoogleLogin } from "@react-oauth/google";
   import axios from "axios";

@@ -2,7 +2,7 @@ import React from 'react'
 import { useDispatch } from 'react-redux';
 import styled from 'styled-components'
 import { closePlayer, openPlayer } from '../redux/audioplayerSlice';
-import { addView } from '../api';
+import { addView } from '../api/index.js';
 import { openSnackbar } from '../redux/snackbarSlice';
 import PlayCircleOutlineIcon from '@mui/icons-material/PlayCircleOutline';
 

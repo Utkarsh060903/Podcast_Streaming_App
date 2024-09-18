@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import styled from 'styled-components'
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import { CircularProgress, IconButton } from '@mui/material';
-import { favoritePodcast, getPodcastById, getUsers } from '../api';
+import { favoritePodcast, getPodcastById, getUsers } from '../api/index.js';
 import { useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import Episodecard from '../components/Episodecard';

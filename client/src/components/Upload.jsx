@@ -12,7 +12,7 @@ import app from "../firebase";
 import ImageSelector from "./ImageSelector";
 import { useDispatch } from "react-redux";
 import { openSnackbar } from "../redux/snackbarSlice";
-import { createPodcast } from '../api';
+import { createPodcast } from '../api/index.js';
 import { Category } from '../utils/Data';
 
 const Container = styled.div`

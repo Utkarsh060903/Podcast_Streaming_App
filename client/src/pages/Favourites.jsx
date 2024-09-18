@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { PodcastCard } from '../components/PodcastCard';
-import { getUsers } from '../api/index';
+import { getUsers } from '../api/index.js';
 import { CircularProgress } from '@mui/material';
 
 const Container = styled.div`

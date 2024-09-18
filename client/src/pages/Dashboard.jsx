@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import { getMostPopularPodcast } from '../api/index';
 import { getPodcastByCategory } from '../api';
 import { PodcastCard } from '../components/PodcastCard.jsx'
-import { getUsers } from '../api/index';
+import { getUsers } from '../api/index.js';
 import { Link } from 'react-router-dom';
 import { CircularProgress } from '@mui/material';
 

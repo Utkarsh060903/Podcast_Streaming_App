@@ -5,7 +5,7 @@ import OtpInput from 'react-otp-input';
 import CircularProgress from "@mui/material/CircularProgress";
 import { useDispatch } from 'react-redux';
 import { openSnackbar } from "../redux/snackbarSlice";
-import { generateOtp, verifyOtp } from '../api';
+import { generateOtp, verifyOtp } from '../api/index.js';
 
 
 const Title = styled.div`

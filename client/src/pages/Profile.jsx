@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useSelector } from 'react-redux';
 import styled from "styled-components";
 import Avatar from '@mui/material/Avatar';
-import { getUsers } from '../api/index';
+import { getUsers } from '../api/index.js';
 import { PodcastCard } from '../components/PodcastCard.jsx'
 
 const ProfileAvatar = styled.div`
