@@ -1,7 +1,7 @@
 import axios from 'axios';
 import jwt_decode from 'jwt-decode';
 
-const API = axios.create({ baseURL: `http://localhost:8007/api` }); 
+const API = axios.create({ baseURL: `https://podstream-server.onrender.com/` }); 
 
 //auth
 export const signIn = async ({ email, password }) => await API.post('/auth/signin', { email, password });
